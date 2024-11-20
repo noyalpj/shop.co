@@ -39,10 +39,6 @@ body img {
   max-width: 100%;
 }
 
-
-
-
-
 .top-bg {
   color: #fff;
   display: none;
@@ -60,26 +56,16 @@ body img {
   font-weight: 400;
 }
 .top-bg .top button {
-  
   background-color: #000;
   color: #fff;
-  /* border: none; */
   font-size: 12px;
   font-weight: 500;
   border-bottom: 1px solid #fff;
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
 .menu-button {
   display: none;
-  /* justify-content: space-between; */
   align-items: center;
   padding: 10px 0px;
   background-color: #fff;
@@ -127,11 +113,6 @@ body img {
   gap: 10px;
 }
 
-
-
-
-
-
 .hamburger {
   display: none;
   cursor: pointer;
@@ -146,7 +127,6 @@ body img {
   transition: 0.3s;
 }
 
-/* Change the icon to a cross when active */
 .hamburger.active .bar:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -158,12 +138,6 @@ body img {
 .hamburger.active .bar:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
-
-
-
-
-
-
 
 header {
 }
@@ -364,13 +338,12 @@ header div.bottom div.right div.option button {
 }
 #spotlight .right-spot {
   width: 50%;
-  height: 500px; /* Fixed height */
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Image content styling */
 #spotlight .img-content {
   position: relative;
   width: 100%;
@@ -381,16 +354,14 @@ header div.bottom div.right div.option button {
   overflow: hidden;
 }
 
-/* Model image styling */
 #spotlight .model-image img {
   width: auto;
   height: 100%;
-  max-height: 500px; /* Fixed height for consistency */
+  max-height: 500px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-/* Star position adjustments */
 #spotlight .small-star {
   width: 56px;
   position: absolute;
@@ -547,7 +518,6 @@ header div.bottom div.right div.option button {
   .product-details
   .rating-wrapper
   .star-wrapper {
-  /* width: 104px; */
 }
 
 #new-arrivals
@@ -793,10 +763,8 @@ header div.bottom div.right div.option button {
 }
 
 .arrowimg div {
-  /* gap: 10px; */
   display: flex;
 }
-
 
 .arrowss {
   cursor: pointer;
@@ -1003,7 +971,7 @@ footer {
 }
 
 @media all and (max-width: 1280px) {
-  header div.top-bg div.top .middle { 
+  header div.top-bg div.top .middle {
     width: 75%;
   }
   header div.bottom div.first h1 {
@@ -1040,7 +1008,13 @@ footer {
   #new-arrivals .new-container .middle .middle-content {
     gap: 30px;
   }
-  #new-arrivals .new-container .middle .middle-content .products .product-image .image-8 {
+  #new-arrivals
+    .new-container
+    .middle
+    .middle-content
+    .products
+    .product-image
+    .image-8 {
     width: 250px;
     height: 252px;
   }
@@ -1052,10 +1026,15 @@ footer {
   header div.bottom div.form {
     width: 30%;
   }
-  #new-arrivals .new-container .middle .middle-content .products .product-image .image-8 {
+  #new-arrivals
+    .new-container
+    .middle
+    .middle-content
+    .products
+    .product-image
+    .image-8 {
     height: 212px;
     width: 237px;
-
   }
 }
 @media all and (max-width: 1080px) {
@@ -1065,7 +1044,13 @@ footer {
   header div.bottom nav.middle ul {
     gap: 18px;
   }
-  #new-arrivals .new-container .middle .middle-content .products .product-image .image-8 {
+  #new-arrivals
+    .new-container
+    .middle
+    .middle-content
+    .products
+    .product-image
+    .image-8 {
     height: 206px;
     width: 218px;
   }
@@ -1132,7 +1117,13 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  #new-arrivals .new-container .middle .middle-content .products .product-image .image-8 {
+  #new-arrivals
+    .new-container
+    .middle
+    .middle-content
+    .products
+    .product-image
+    .image-8 {
     height: 299px;
     width: 296px;
   }
@@ -1156,7 +1147,7 @@ footer {
     font-size: 40px;
     line-height: 40px;
   }
-}  
+}
 @media all and (max-width: 768px) {
   .top-bg {
     display: flex;
@@ -1171,11 +1162,11 @@ footer {
   .search-cart-icons {
     display: none;
   }
-  
+
   .hamburger {
     display: flex;
   }
-  
+
   .nav-links.active,
   .search-cart-icons.active {
     display: flex;
@@ -1189,7 +1180,7 @@ footer {
     padding: 12px 21px 7px 40px;
     border-top: 1px solid #ccc;
   }
-  
+
   .nav-links li {
     padding: 10px 0;
   }
@@ -1220,7 +1211,7 @@ footer {
     font-size: 25px;
   }
 
-  .review-card:nth-child(3){
+  .review-card:nth-child(3) {
     display: none;
   }
   .review-cards {
@@ -1240,16 +1231,16 @@ footer {
     line-height: 30px;
     padding-bottom: 15px;
   }
-  .footer-content{
+  .footer-content {
     gap: 20px;
   }
-  
+
   .footer-left {
     flex: 1 1 100%;
     max-width: 100%;
   }
 
-  .footer-column{
+  .footer-column {
     width: calc(20% - -15px);
     margin-right: 0;
   }
@@ -1257,14 +1248,13 @@ footer {
     display: block;
   }
   .payment-methods {
-  justify-content: center;
+    justify-content: center;
   }
   .footer-bottom p {
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
   }
-
 }
 @media all and (max-width: 640px) {
   #spotlight div.content-spot ul li:nth-child(2) {
@@ -1273,7 +1263,7 @@ footer {
   .review-cards {
     flex-wrap: wrap;
   }
-  .footer-column{
+  .footer-column {
     width: calc(50% - 10px);
     margin-right: 0;
   }
@@ -1330,7 +1320,7 @@ footer {
   #spotlight div.content-spot ul li:nth-child(2) {
     padding: 0 0 0 30px;
   }
-  .review-card:nth-child(2){
+  .review-card:nth-child(2) {
     display: none;
   }
   .reviews-section h1 {
@@ -1338,7 +1328,7 @@ footer {
     line-height: 27px;
   }
 }
-@media all and (max-width: 360px) { 
+@media all and (max-width: 360px) {
 }
 @media all and (max-width: 320px) {
 }
