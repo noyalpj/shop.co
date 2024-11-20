@@ -667,7 +667,7 @@ header div.bottom div.right div.option button {
   width: 40%;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 350px;
   border-radius: 30px;
   margin-bottom: 30px;
 }
@@ -677,7 +677,7 @@ header div.bottom div.right div.option button {
   width: 58%;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 350px;
   border-radius: 30px;
   margin-bottom: 30px;
 }
@@ -687,7 +687,7 @@ header div.bottom div.right div.option button {
   width: 58%;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 350px;
   border-radius: 30px;
 }
 #types .four-types .bottom ul li:nth-child(4) {
@@ -696,7 +696,7 @@ header div.bottom div.right div.option button {
   width: 40%;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 350px;
   border-radius: 30px;
 }
 
@@ -1057,6 +1057,12 @@ footer {
     height: 206px;
     width: 218px;
   }
+  #types .four-types .top h1 {
+    font-size: 40px;
+  }
+  #types .four-types .bottom ul li h6 {
+    font-size: 35px;
+  }
 }
 @media all and (max-width: 980px) {
   header div.top-bg div.top .middle {
@@ -1115,7 +1121,20 @@ footer {
     height: 299px;
     width: 296px;
   }
-}
+
+  #types .four-types .bottom ul li:nth-child(1) {
+    height: 280px;
+  }
+  #types .four-types .bottom ul li:nth-child(2) {
+    height: 280px;
+  }
+  #types .four-types .bottom ul li:nth-child(3) {
+    height: 280px;
+  }
+  #types .four-types .bottom ul li:nth-child(4) {
+    height: 280px;
+  }
+}  
 @media all and (max-width: 768px) {
   .top-bg {
     display: flex;
@@ -1152,6 +1171,32 @@ footer {
   .nav-links li {
     padding: 10px 0;
   }
+  #new-arrivals .new-container .new-top h3 {
+    font-size: 40px;
+  }
+  #types .four-types .bottom ul {
+    display: block;
+  }
+  #types .four-types .bottom ul li:nth-child(1) {
+    width: 100%;
+  }
+  #types .four-types .bottom ul li:nth-child(2) {
+    width: 100%;
+  }
+  #types .four-types .bottom ul li:nth-child(3) {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+  #types .four-types .bottom ul li:nth-child(4) {
+    width: 100%;
+  }
+  #types .four-types .top h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  #types .four-types .bottom ul li h6 {
+    font-size: 25px;
+  }
 
 }
 
@@ -1185,9 +1230,33 @@ footer {
   }
   #brands .wrapper .brands-container ul li:nth-child(2) {
     width: 50%;
+    display: flex;
+    margin: 0 auto;
+  }
+  #types .four-types .bottom ul {
+    padding: 0px 20px 30px 20px;
+  }
+  #types .four-types .bottom ul li:nth-child(1) {
+    height: 200px;
+  }
+  #types .four-types .bottom ul li:nth-child(2) {
+    height: 200px;
+  }
+  #types .four-types .bottom ul li:nth-child(3) {
+    height: 200px;
+  }
+  #types .four-types .bottom ul li:nth-child(4) {
+    height: 200px;
+  }
+  #spotlight div.content-spot h3 {
+    font-size: 36px;
+  }
+  #spotlight div.content-spot ul li:nth-child(2) {
+    padding: 0 0 0 30px;
   }
 }
 @media all and (max-width: 360px) {
+  
 }
 @media all and (max-width: 320px) {
 }
