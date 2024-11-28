@@ -592,7 +592,8 @@ header div.bottom div.right div.option button {
 #new-arrivals .new-container .bottom button {
   font-size: 16px;
   font-weight: 500;
-  padding: 16px 54px;
+  padding: 16px 70px;
+  cursor: pointer;
   border: 1px solid #e6e6e6;
   border-radius: 62px;
 }
@@ -781,7 +782,7 @@ header div.bottom div.right div.option button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 30px;
+  padding: 38px 30px;
   border-radius: 10px;
 
   position: relative;
@@ -968,6 +969,9 @@ footer {
   margin-left: 10px;
   width: 40px;
   height: auto;
+  background-color: #fff;
+  padding: 3px 3px 3px 3px;
+  border-radius: 4px;
 }
 
 @media all and (max-width: 1280px) {
