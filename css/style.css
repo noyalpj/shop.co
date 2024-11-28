@@ -17,6 +17,28 @@ ul {
   list-style: none;
 }
 
+@font-face {
+  font-family: "interbold";
+  src: url("/assests/fonts/Inter_28pt-Bold.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "intermedium";
+  src: url("/assests/fonts/Inter_28pt-Medium.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "interregular";
+  src: url("/assests/fonts/Inter_28pt-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
@@ -277,6 +299,7 @@ header div.bottom div.right div.option button {
 
 #spotlight {
   background-color: #f2f0f1;
+  padding-top: 30px;
 }
 #spotlight div.main-container {
   display: flex;
